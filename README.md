@@ -5,11 +5,11 @@ Inbox-Sanitizer is an automated Python security tool designed for **Level-1 SOC 
 ---
 
 ## ✨ Features
-- **Automated Mail Fetching:** Targets unread (`UNSEEN`) messages via secure IMAP connections. 📬
-- **Robust Email Parsing:** Decodes complicated headers and extracts raw plaintext bodies from multipart emails. 📝
-- **Intelligent Threat Scoring:** Evaluates psychological triggers, suspicious formatting, and urgency metrics to return a strict $0-100\%$ threat probability. 📊
-- **Structured JSON Engine:** Forces the AI to output machine-readable JSON data for reliable parsing without string errors. 🤖
-- **Cost-Efficient Analytics:** Utilizes optimized inference pathways (`gpt-4o-mini` or free equivalents) for low-latency triage. ⚡
+- **Automated Mail Fetching:** Targets unread (`UNSEEN`) messages via secure IMAP connections.
+- **Robust Email Parsing:** Decodes complicated headers and extracts raw plaintext bodies from multipart emails.
+- **Intelligent Threat Scoring:** Evaluates psychological triggers, suspicious formatting, and urgency metrics to return a strict $0-100\%$ threat probability. 
+- **Structured JSON Engine:** Forces the AI to output machine-readable JSON data for reliable parsing without string errors.
+- **Cost-Efficient Analytics:** Utilizes optimized inference pathways (`gpt-4o-mini` or free equivalents) for low-latency triage. 
 
 ---
 
