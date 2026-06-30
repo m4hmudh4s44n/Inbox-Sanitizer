@@ -99,18 +99,18 @@ def check_mail():
                 score, reason = analyze_with_openai(subject, body)
 
                 # --- PRINT SOC LOG REPORT ---
-                print(f"📬 FROM: {sender}")
-                print(f"📝 SUBJECT: {subject}")
+                print(f" FROM: {sender}")
+                print(f" SUBJECT: {subject}")
                 
                 # Conditional formatting depending on danger level
                 if score >= 75:
-                    print(f"🚨 PHISHING SCORE: {score}% [HIGH RISK]")
+                    print(f" PHISHING SCORE: {score}% [HIGH RISK]")
                 elif score >= 40:
-                    print(f"⚠️ PHISHING SCORE: {score}% [SUSPICIOUS]")
+                    print(f" PHISHING SCORE: {score}% [SUSPICIOUS]")
                 else:
-                    print(f"🟢 PHISHING SCORE: {score}% [CLEAN]")
+                    print(f" PHISHING SCORE: {score}% [CLEAN]")
                     
-                print(f"🤖 AI REASONING: {reason}")
+                print(f" AI REASONING: {reason}")
                 print("-" * 60)
 
     mail.close()
